@@ -48,6 +48,12 @@ spec:
       # milliseconds
       thresholdRange:
         max: 500
+    - name: "404s percentage"
+      templateRef:
+        name: not-found-percentage
+      thresholdRange:
+        max: 5
+      interval: 1m
     webhooks:
       - name: acceptance-test
         type: pre-rollout
