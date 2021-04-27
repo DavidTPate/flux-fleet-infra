@@ -40,7 +40,7 @@ spec:
         env:
         - name: PODINFO_UI_COLOR
           value: '#34577c'
-        image: stefanprodan/podinfo:4.0.7
+        image: stefanprodan/podinfo:4.0.4
         imagePullPolicy: IfNotPresent
         livenessProbe:
           exec:
